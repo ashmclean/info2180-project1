@@ -17,6 +17,7 @@ header {
     background-color: white;
     font-size: 18px;
 }
+
 .container { 
     display: flex; 
     margin: 0 auto;
@@ -37,7 +38,7 @@ header ul {
 
 header ul {
     display: flex; /*header an navigation links in same line*/
-    justify-content: flex-end;
+    justify-content: right;
 
 }
 
@@ -57,6 +58,7 @@ header ul li a:hover {
 .overview-hero{
     background-color: #E2E8F0;
     margin: auto;
+    padding: auto;
 }
 
 #oh_pic{
@@ -67,7 +69,7 @@ header ul li a:hover {
     padding: 10px;
 }
 
-/*********** Learn About **********/
+/**** Learn About ****/
 
 .learn-about .container {
     display: flex;
@@ -75,6 +77,7 @@ header ul li a:hover {
     margin: auto;
     max-width: 960px;
     width: 100%;
+    padding: 20px;
 } 
 
 .learn-about h2{
@@ -114,3 +117,107 @@ header ul li a:hover {
     color: #48BB78;
 }
 
+/******** Testing ********/
+
+.testing {
+    display: flex;
+    background-color: #4A5568;
+    color: white;
+    margin: 0 auto;
+    width: 100%;
+    padding: 20px;
+}
+
+.testing-description {
+    justify-content: left;
+
+}
+
+.cta {
+    float: right;
+    background-color: #48BB78;
+    border-radius: 5px;
+    height: 20px;
+    width: 150px;
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+}
+
+.cta a {
+    text-decoration: none;
+    color: white;
+}
+
+/******** Recent Stories ********/
+.stories .container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.stories .container img {
+    float: left;
+    height: 180px;
+    width: 180px;
+    border-radius: 50%;
+    padding:20px;
+}
+
+.stories .container h2 {
+    color: #5A67D8;
+}
+
+.stories .container a {
+    text-decoration: none;
+    color: #5A67D8;
+}
+
+.stories .container h3 {
+    font-size: 18px;
+}
+
+/******** Newsletter *********/
+
+.newsletter {
+    background-color: #48BB78;
+}
+
+.newsletter .container {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    padding: 20px;
+
+}
+
+.newsletter .container form {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.newsletter .container form button {
+    background-color: #5A67D8;
+    color: white;
+    height: 50px;
+    width: 100px;
+    border: none;
+    border-radius: 5px;
+}
+
+.newsletter .container form input[type="email"] {
+    height: 50px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+
+/******** Footer *********/
+footer {
+    background-color: #4A5568;
+    color: white;
+    padding: 20px;
+}
